@@ -19,7 +19,7 @@ CREATE TABLE roles (
     id INTEGER (11) AUTO_INCREMENT NOT NULL,
     title VARCHAR(30) NOT NULL,
     salary INTEGER (11) UNSIGNED,
-    department_id INTEGER,
+    department_id INTEGER (11),
     PRIMARY KEY (id)
 );
 
@@ -28,7 +28,7 @@ CREATE TABLE employees (
     id INTEGER(11) AUTO_INCREMENT NOT NULL,
     first_name VARCHAR(30) NOT NULL,
     last_name VARCHAR(30) NOT NULL,
-    role_id INTEGER,
-    manager_id INTEGER,
+    role_id INTEGER (11),
+    manager_id INTEGER (11),
     PRIMARY KEY (id)
 );
