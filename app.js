@@ -21,7 +21,9 @@ function menu() {
         }
     ])
     .then((answer) => {
-        console.log(answer.input);
+        if (answer === "View All Departments") {
+            viewDepartments();
+        } 
         menu();
     });
 ;}

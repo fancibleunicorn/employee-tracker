@@ -7,7 +7,7 @@
     "test": "jest",
     "migrate": "mysql db/tracker.db < db/schema.sql",
     "seed": "mysql db/tracker.db < db/seeds.sql",
-    "db": "mysql -u root -p81818181 db/tracker.db",
+    "db": "mysql -u root -p source db/schema.sql",
     "start": "node server.js"
   },
   "repository": {
