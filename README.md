@@ -4,7 +4,7 @@
 
   A Node application to create, update, and maintain a database of employees and company information.
   
-To view a walkthrough, [Click Here](https://drive.google.com/file/d/1HqUYrKUti985gaa3ebyB5qjaKTHMlnTZ/view)
+To view a walkthrough, [Click Here](https://drive.google.com/file/d/1PHrl0JOO6EFyjzXAkqNyy6ysWWj-jZ6N/view)
   
   ## Table of Contents
   
